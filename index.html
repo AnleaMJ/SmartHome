@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Home Energy Optimizer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+        }
+        .dashboard {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            width: 30%;
+        }
+        .card h2 {
+            margin-top: 0;
+        }
+        .card p {
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Smart Home Energy Optimizer</h1>
+    <div class="dashboard">
+        <div class="card">
+            <h2>Energy Consumption</h2>
+            <p id="energy-consumption">Loading...</p>
+        </div>
+        <div class="card">
+            <h2>Recommendations</h2>
+            <p id="recommendations">Loading...</p>
+        </div>
+        <div class="card">
+            <h2>Predicted Usage</h2>
+            <p id="predicted-usage">Loading...</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
